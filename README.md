@@ -47,10 +47,10 @@ Limitations
 -----------
 Not all signals are disabled. The default includes:
 
-- pre_init, post_init
-- pre_save, post_save
-- pre_delete, post_delete
-- pre_migrate, post_migrate
+- `pre_init`, `post_init`
+- `pre_save`, `post_save`
+- `pre_delete`, `post_delete`
+- `pre_migrate`, `post_migrate`
 
 To disable other signals, one has to provide their list when instantiating disabler. Let's say we
 have a signal called `email_sent`. To disable it use:

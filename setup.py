@@ -8,7 +8,7 @@ setup(
     keywords=['django', 'django-signals'],
 
     # Origin
-    url='https://github.com/RobertKolner/django-disable-signals',
+    url='https://github.com/RobertKolner/django-signal-disabler',
     author='Robert Kolner',
     author_email='robert.kolner@gmail.com',
     license='MIT',
