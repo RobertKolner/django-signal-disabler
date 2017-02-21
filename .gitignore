@@ -1,0 +1,15 @@
+*~
+*.py[c|o]
+
+__pycache__/
+
+/*.egg-info/
+/.cache/
+/.eggs/
+/.idea/
+/.tox/
+/build/
+/dist/
+/venv/
+
+/.coverage
