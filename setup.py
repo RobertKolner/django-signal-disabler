@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     # Metadata
@@ -11,7 +11,7 @@ setup(
     url='https://github.com/RobertKolner/django-disable-signals',
     author='Robert Kolner',
     author_email='robert.kolner@gmail.com',
-    licence='MIT',
+    license='MIT',
 
     # Package data
     packages=['signal_disabler'],
