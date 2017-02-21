@@ -1,6 +1,6 @@
 include LICENSE
 include MANIFEST.in
-include *.rst
+include *.md
 graft tests
 global-exclude __pycache__
 global-exclude *.py[co]
