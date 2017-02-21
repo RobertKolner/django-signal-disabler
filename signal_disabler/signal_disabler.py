@@ -16,7 +16,7 @@ class disable(object):
 
     def __call__(self, fn=None):
         if not fn:
-            raise AttributeError('To use thus decorator, instantiate it first: `@disable()`, not `@disable`')
+            raise AttributeError('To use this decorator, instantiate it first: `@disable()`, not `@disable`')
 
         @functools.wraps(fn)
         def decorated(*args, **kwargs):
