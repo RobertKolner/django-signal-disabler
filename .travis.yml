@@ -1,9 +1,15 @@
-sudo: false
 language: python
+sudo: false
+
 python:
   - "2.7"
   - "3.3"
   - "3.4"
   - "3.5"
-install: pip install tox-travis
+
+before_install: pip install --user tox-travis codecov
+
 script: tox
+
+after_success:
+  - codecov
