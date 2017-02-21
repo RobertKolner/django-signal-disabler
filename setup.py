@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     # Metadata
     name='django-signal-disabler',
-    version='0.1',
+    version='0.1.1',
     description='Allows to temporarily disable django signals',
     keywords=['django', 'django-signals'],
 
