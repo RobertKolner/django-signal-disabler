@@ -1,5 +1,8 @@
 django-disable-signals
 ======================
+.. image:: https://travis-ci.org/RobertKolner/django-signal-disabler.svg?branch=master
+    :target: https://travis-ci.org/RobertKolner/django-signal-disabler
+
 A small utility package for temporarily disabling django signals
 
 Installation
