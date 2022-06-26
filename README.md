@@ -57,6 +57,6 @@ have a signal called `email_sent`. To disable it use:
 
 ```python
 email = Email()
-with signal_disabler.disable(email_sent):
+with signal_disabler.disable([email_sent]):
     email.send()
 ```
