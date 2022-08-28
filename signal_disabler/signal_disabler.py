@@ -21,8 +21,10 @@ class disable(object):
         @functools.wraps(fn)
         def decorated(*args, **kwargs):
             self.disconnect_all()
-            fn(*args, **kwargs)
-            self.reconnect_all()
+            try:
+                fn(*args, **kwargs)
+            finally:
+                self.reconnect_all()
         return decorated
 
     def __enter__(self):
